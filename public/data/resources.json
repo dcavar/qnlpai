@@ -1,10 +1,10 @@
 {
-  "title": "GDG DevFest Season 2018",
-  "description": "Join the community, learn new things!",
+  "title": "Quantum AI and NLP Conference 2025",
+  "description": "Join the Quantum community!",
   "image": "images/social-share.jpg",
-  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
-  "partnershipProposition": "https://bit.ly/dfua17-partners",
+  "keywords": "event, Indiana University, quantum, artificial intelligence, natural language processing, quantum computing, NLP, AI",
+  "dates": "August 03-05, 2025",
+  "partnershipProposition": "https://qnlp.ai/qnlpai25-partners",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
@@ -44,48 +44,48 @@
       "title": "About",
       "links": [
         {
-          "name": "GDG Lviv",
-          "url": "http://lviv.gdg.org.ua/",
+          "name": "Indiana University",
+          "url": "http://www.iu.edu/",
           "newTab": true
         },
         {
-          "name": "GDG",
-          "url": "https://developers.google.com/groups/",
+          "name": "Quantum NLP Lab",
+          "url": "https://nlp-lab.org/quantumnlp/",
           "newTab": true
         },
         {
-          "name": "DevFest",
-          "url": "https://devfest.withgoogle.com/",
+          "name": "QSEc - Quantum Science and Engineering Center",
+          "url": "https://qsec.sitehost.iu.edu/",
           "newTab": true
         },
         {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
+          "name": "CQT - Center for Quantum Technologies",
+          "url": "https://www.purdue.edu/cqt/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "Explore Past DevFests",
+      "title": "Explore Quantum AI and NLP Conferences",
       "links": [
         {
-          "name": "DFUA 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
+          "name": "QAIO - Quantum Artificial Intelligence and Optimization 2025",
+          "url": "https://qaio.org/",
           "newTab": true
         },
         {
-          "name": "DFUA 2014",
-          "url": "https://dfua14.web.app/",
+          "name": "QNLP 2022",
+          "url": "https://qnlp.cambridgequantum.com/conf2022/",
           "newTab": true
         },
         {
-          "name": "DFUA 2015",
-          "url": "https://dfua15.web.app/",
+          "name": "IEEE Quantum Week 2024",
+          "url": "https://qce.quantum.ieee.org/2024/",
           "newTab": true
         },
         {
-          "name": "DFUA 2016",
-          "url": "https://dfua16.web.app/",
+          "name": "QNLP 2023",
+          "url": "https://qnlp.cambridgequantum.com/conf2023/",
           "newTab": true
         }
       ]
@@ -121,38 +121,38 @@
       ]
     }
   ],
-  "subscribeNote": "No spam, only the latest news and updates!",
+  "subscribeNote": "Latest news and updates!",
   "codeOfConduct": "Code of Conduct",
   "codeOfConductBlock": {
     "organization": "DevFest",
     "form": "https://bit.ly/2RstTJ8",
     "contacts": [
-      "Organizer Oleh Zasadnyy, [+38 093 486 6460](tel:+380934866460), o.zasadnyy@gdg.org.ua",
-      "Organizer Sofiya Huts, [+38 093 486 1425](tel:+380934861425), s.huts@gdg.org.ua"
+      "Organizer Damir Cavar, [+1 812 ...](tel:+1812...), dcavar@iu.edu",
+      "Organizer XYZ, [+1 812 ...](tel:+1812...), xyz@iu.edu"
     ]
   },
   "aboutBlock": {
     "title": "About",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
+        "description": "The Quantum AI and NLP Conference brings together the world class experts in Quantum Computing, Artificial Intelligence, and Natural Language Processing to Indiana University in Bloomington for 3 days of talks, poster sessions, workshops, and showcases.",
         "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "link": "https://www.youtube.com/playlist?list=XYZ"
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
-        "youtubeId": "TdpbgRgz6eE"
+        "description": "...",
+        "label": "See how QNLP and QAIO...",
+        "youtubeId": "XYZ"
       }
     },
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "900"
+        "number": "300"
       },
       "days": {
         "label": "Days",
-        "number": "2"
+        "number": "3"
       },
       "sessions": {
         "label": "Sessions",
@@ -183,10 +183,10 @@
     "toast": "We will contact you soon!"
   },
   "featuredVideos": {
-    "title": "DFUA'16 featured videos",
+    "title": "QNLPAI'25 featured videos",
     "callToAction": {
       "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      "link": "https://www.youtube.com/playlist?list=XYZ"
     }
   },
   "blog": {
@@ -220,11 +220,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "#qnlpai25 highlights",
+    "description": "Quantum AI and NLP Conference 2025. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "https://qnlp.ai/photos/"
     }
   },
   "mapBlock": {
@@ -249,7 +249,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "Quantum AI and NLP..."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -313,7 +313,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "<a href='http://www.iu.edu' target='_blank'>Indiana University</a> with support of many Quantum Computing and AI researchers, students, and enthusiasts from all over the world",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
