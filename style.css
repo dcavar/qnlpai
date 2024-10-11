@@ -2138,7 +2138,7 @@ input:required {
     color: #ffffff;
     font-size: 40px;
     opacity: 0.5; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (min-width: 792px) and (max-width: 1199px) {
       .our-client-area .owl-prev,
       .our-client-area .owl-next {
         left: -15px; } }
@@ -2153,7 +2153,7 @@ input:required {
   .our-client-area .owl-next {
     left: auto;
     right: -30px; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (min-width: 792px) and (max-width: 1199px) {
       .our-client-area .owl-next {
         right: -15px; } }
     @media only screen and (max-width: 767px) {
@@ -2172,37 +2172,37 @@ input:required {
   position: relative;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 40px 50px;
+  padding: 10px 10px;
   border-radius: 10px;
   margin: 5px; }
   @media only screen and (max-width: 767px) {
     .single-client-content {
-      padding: 30px; } }
+      padding: 5px; } }
   .single-client-content .single-client-text {
     position: relative;
     z-index: 1; }
     .single-client-content .single-client-text p {
       color: #ffffff;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
       font-weight: 300; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @media only screen and (min-width: 568px) and (max-width: 991px) {
         .single-client-content .single-client-text p {
           font-size: 14px; } }
       @media only screen and (max-width: 767px) {
         .single-client-content .single-client-text p {
           font-size: 14px; } }
     .single-client-content .single-client-text .single-client-thumb-info .single-client-thumb {
-      width: 65px;
-      height: 65px; }
+      width: 55px;
+      height: 55px; }
       .single-client-content .single-client-text .single-client-thumb-info .single-client-thumb img {
-        border-radius: 50%; }
+        border-radius: 30%; }
     .single-client-content .single-client-text .single-client-thumb-info .client-info {
       margin-left: 15px; }
       .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
         color: #ffffff;
         font-size: 18px;
         margin-bottom: 0; }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @media only screen and (min-width: 568px) and (max-width: 991px) {
           .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
             font-size: 14px; } }
         @media only screen and (max-width: 767px) {
@@ -2211,7 +2211,7 @@ input:required {
       .single-client-content .single-client-text .single-client-thumb-info .client-info p {
         margin-bottom: 0;
         color: #df42b1; }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @media only screen and (min-width: 568px) and (max-width: 991px) {
           .single-client-content .single-client-text .single-client-thumb-info .client-info p {
             font-size: 14px; } }
         @media only screen and (max-width: 767px) {
@@ -2221,7 +2221,8 @@ input:required {
           .single-client-content .single-client-text .single-client-thumb-info .client-info p {
             font-size: 12px; } }
     .single-client-content .single-client-text.about-page p {
-      color: #5d5e8d; }
+      color: #5d5e8d;
+      width: 55px; }
     .single-client-content .single-client-text.about-page .client-info h6 {
       color: #111343; }
   .single-client-content .client-icon {
