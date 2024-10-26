@@ -23,6 +23,66 @@
     <title>Quantum AI and NLP 2025 Conference</title>
     <link rel="icon" href="./img/core-img/favicon.png">
     <link rel="stylesheet" href="style.css">
+    <!-- added by DC -->
+    <style>
+        .collapsible {
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        /* .active, .collapsible:hover {
+            background-color: #555;
+            color: white;
+        } */
+
+        .content {
+            padding: 0 18px;
+            /* display: none; */
+            /* overflow: hidden; */
+            /*  background-color: #f1f1f1; */
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .image-card {
+            text-align: center;
+            width: 180px;
+        }
+
+        .image-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .image-card a {
+            text-decoration: none;
+            /* color: black; */
+        }
+
+        .arrow {
+            font-size: 18px;
+            transition: transform 0.3s;
+        }
+
+        .arrow.down {
+            transform: rotate(90deg);
+        }
+    </style>
+
 </head>
 <body>
     <!-- Preloader -->
@@ -657,9 +717,9 @@
             <div class="row">
                 <!-- Heading -->
                 <div class="col-12">
-                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms" style="margin-bottom: 40px;">
                         <p>Partners &amp; Sponsors</p>
-                        <h4>OFFICIAL SPONSORS</h4>
+                        <!-- h4>OFFICIAL SPONSORS</h4 -->
                     </div>
                 </div>
             </div>
@@ -673,9 +733,9 @@
                             <p style="color: white;text-align: center;"><a href="https://bloomington.iu.edu/" target=”_blank”><img src="img/core-img/IU-trident-tab-promo.jpg" alt="Indiana University"/></a><br/>Indiana University</p>
                         </div>
                         <!-- Single Sponsor -->
-                        <!-- div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                            <a href="#"><img src="img/core-img/p-2.png" alt=""></a>
-                        </div -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <p style="color: white;text-align: center;"><a href="https://qute-iu.github.io/"><img src="img/bg-img/qute.jpg" alt=""></a></p>
+                        </div>
                         <!-- Single Sponsor -->
                         <!-- div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
                             <a href="#"><img src="img/core-img/p-3.png" alt=""></a>
@@ -701,22 +761,147 @@
                             <a href="#"><img src="img/core-img/p-8.png" alt=""></a>
                         </div -->
                     </div>
+                    <P style="margin-bottom: 60px;"></P>
                 </div>
 
                 <div class="col-12">
-                        <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
-                            <p>Program Commitee</p>
-                            <h4>LOCAL ORGANIZERS</h4>
+                        <div class="section-heading text-center fadeInUp" data-wow-delay="300ms" style="margin-bottom: 40px;">
+                            <p>Organizing Commitee</p>
                         </div>
+                <div class="our-client-area  fadeInUp" data-wow-delay="300ms">
+                    <div class="content">
+                    <div class="image-container">
+                        <div class="image-card">
+                            <a href="http://damir.cavar.me/">
+                                <img src="img/bg-img/Damir_Cavar.png" alt="Damir Cavar">
+                                <p>Damir Cavar</p>
+                            </a>
+                        </div>
+                        <div class="image-card">
+                            <a href="https://math.indiana.edu/about/faculty/moss-larry.html">
+                                <img src="img/bg-img/Larry_Moss.jpg" alt="Larry Moss">
+                                <p>Larry Moss</p>
+                            </a>
+                        </div>
+                        <div class="image-card">
+                            <a href="https://luddy.indiana.edu/contact/profile/?profile_id=210">
+                                <img src="img/bg-img/Adrian_German.jpg" alt="Dan-Adrian German">
+                                <p>Dan-Adrian German</p>
+                            </a>
+                        </div>
+                        <div class="image-card">
+                            <a href="https://psych.indiana.edu/directory/graduate-students/zheng-rong.html">
+                                <img src="img/bg-img/Rong_Zheng.jpg" alt="Rong Zheng">
+                                <p>Rong Zheng</p>
+                            </a>
+                        </div>
+                        <div class="image-card">
+                            <a href="https://www.linkedin.com/in/koushik-reddy-parukola/">
+                                <img src="img/bg-img/Koushik_Parukola.jpg" alt="Koushik Reddy Parukola">
+                                <p>Koushik Reddy Parukola</p>
+                            </a>
+                        </div>
+                        <div class="image-card">
+                            <a href="https://themester.indiana.edu/about/staff/sparks-shane.html">
+                                <img src="img/bg-img/Shane_Spark.jpg" alt="Shane Spark">
+                                <p>Shane Spark</p>
+                            </a>
+                        </div>
+                        <div class="image-card">
+                            <a href="https://physics.indiana.edu/about/directory/graduate-students/burkle-wes.html">
+                                <img src="img/bg-img/Wes_Burkle.jpg" alt="Wes Burkle">
+                                <p>Wes Burkle</p>
+                            </a>
+                        </div>
+                        <div class="image-card">
+                            <a href="https://sites.google.com/view/jiaqihuang">
+                                <img src="img/bg-img/Jiaqi_Huang.jpg" alt="Jiaqi Huang">
+                                <p>Jiaqi Huang</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- add
-                 
-                 Heidari Khoozani, Mohsen
-                 German, Dan-Adrian
-                 Lei Jiang
-                 Zoran Tiganj
-                -->
-                <div class="col-12">
+                </div>
+            </div>
+
+            <div class="col-12">
+                <!-- wow -->
+                <P style="margin-bottom: 60px;"></P>
+                <div class="section-heading text-center fadeInUp" data-wow-delay="300ms" style="margin-bottom: 40px;">
+                    <p>Program Commitee</p>
+                </div>
+
+        <!-- mt-100 wow -->
+        <div class="our-client-area  fadeInUp" data-wow-delay="300ms">
+            <div class="content">
+            <div class="image-container">
+                <div class="image-card">
+                    <a href="https://math.indiana.edu/about/faculty/moss-larry.html">
+                        <img src="img/bg-img/Larry_Moss.jpg" alt="Larry Moss">
+                        <p>Larry Moss<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://psych.indiana.edu/directory/faculty/busemeyer-jerome.html">
+                        <img src="img/bg-img/Jerome_Busemeyer.jpg" alt="Jerome Busemeyer">
+                        <p>Jerome Busemeyer<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="http://damir.cavar.me/">
+                        <img src="img/bg-img/Damir_Cavar.png" alt="Damir Cavar">
+                        <p>Damir Cavar<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://homes.luddy.indiana.edu/mheidar">
+                        <img src="img/bg-img/Mohsen_Heidari.jpg" alt="Mohsen Heidari">
+                        <p>Mohsen Heidari<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://luddy.indiana.edu/contact/profile/?profile_id=210">
+                        <img src="img/bg-img/Adrian_German.jpg" alt="Dan-Adrian German">
+                        <p>Dan-Adrian German<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://luddy.indiana.edu/contact/profile/?profile_id=453">
+                        <img src="img/bg-img/Lei_Jiang.jpg" alt="Lei Jiang">
+                        <p>Lei Jiang<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://homes.luddy.indiana.edu/fc7/">
+                        <img src="img/bg-img/Fan_Chen.jpg" alt="Fan Chen">
+                        <p>Fan Chen<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://luddy.indiana.edu/contact/profile/index.html?Zoran_Tiganj">
+                        <img src="img/bg-img/Zoran_Tiganj.jpg" alt="Zoran Tiganj">
+                        <p>Zoran Tiganj<br/>Indiana University</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://www.linkedin.com/in/dwiddows/">
+                        <img src="img/bg-img/Dominic_Widdows.jpg" alt="Dominic Widdows">
+                        <p>Dominic Widdows</p>
+                    </a>
+                </div>
+                <div class="image-card">
+                    <a href="https://www.linkedin.com/in/samuel-yen-chi-chen/">
+                        <img src="img/bg-img/Samuel_Chen.jpg" alt="Samuel Yen-Chi Chen">
+                        <p>Samuel Yen-Chi Chen<br/>Wells Fargo</p>
+                    </a>
+                </div>
+                <!-- Add more image cards as needed -->
+            </div>
+        </div>
+        </div>
+    </div>
+
+                <!-- div class="col-12">
                     <div class="our-client-area mt-100 wow fadeInUp" data-wow-delay="300ms">
                         <div class="client-area owl-carousel">
                             <div class="single-client-content">
@@ -727,7 +912,6 @@
                                         </div>
                                         <div class="client-info">
                                             <h6>Jerome Busemeyer</h6>
-                                            <!-- p> IU </p -->
                                         </div>
                                     </div>
                                 </div>
@@ -737,14 +921,12 @@
                             </div>
                             <div class="single-client-content">
                                 <div class="single-client-text">
-                                    <!-- p> </p -->
                                     <div class="single-client-thumb-info d-flex align-items-center">
                                         <div class="single-client-thumb">
                                             <a href="http://damir.cavar.me/" target="_blank"><img src="img/bg-img/Damir_Cavar.png" alt="Damir Cavar"></a>
                                         </div>
                                         <div class="client-info">
                                             <h6><a href="http://damir.cavar.me/" style="color: white;" target="_blank">Damir Cavar</a></h6>
-                                            <!-- p></p -->
                                         </div>
                                     </div>
                                 </div>
@@ -754,14 +936,12 @@
                             </div>
                             <div class="single-client-content">
                                 <div class="single-client-text">
-                                    <!-- p> </p -->
                                     <div class="single-client-thumb-info d-flex align-items-center">
                                         <div class="single-client-thumb">
                                             <a href="https://homes.luddy.indiana.edu/fc7/" target="_blank"><img src="img/bg-img/Fan_Chen.jpg" alt="Fan Chen"></a>
                                         </div>
                                         <div class="client-info">
                                             <h6><a href="https://homes.luddy.indiana.edu/fc7/" style="color: white;" target="_blank">Fan Chen</a></h6>
-                                            <!-- p></p -->
                                         </div>
                                     </div>
                                 </div>
@@ -769,7 +949,6 @@
                                     <i class="zmdi zmdi-quote"></i>
                                 </div>
                             </div>
-
                             <div class="single-client-content">
                                 <div class="single-client-text">
                                     <div class="single-client-thumb-info d-flex align-items-center">
@@ -785,10 +964,9 @@
                                     <i class="zmdi zmdi-quote"></i>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                </div>
+                </div -->
             </div>
         </div>
     </section>
@@ -1088,6 +1266,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Carousel -->>
     <script src="js/owl.carousel.min.js"></script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const coll = document.querySelector('.collapsible');
+            const content = document.querySelector('.content');
+            const arrow = document.querySelector('.arrow');
+    
+            coll.addEventListener('click', function() {
+                this.classList.toggle('active');
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                    arrow.classList.remove('down');
+                } else {
+                    content.style.display = "block";
+                    arrow.classList.add('down');
+                }
+            });
+        });
+    </script>
+    
 </body>
 
 </html>
