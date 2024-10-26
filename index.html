@@ -81,6 +81,20 @@
         .arrow.down {
             transform: rotate(90deg);
         }
+
+        .countdown {
+            /* font-family: 'Arial', sans-serif; */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .time-unit {
+            font-size: 30px;
+        }
     </style>
 
 </head>
@@ -232,15 +246,21 @@
                     <div class="col-12 col-md-3">
                         <!-- Countdown Text -->
                         <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
-                            <h6>Conference Date</h6>
+                            <!-- h6>Conference Date</h6 -->
                             <h4>Count Every Second Until the Event</h4>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-9">
-                        <div class="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
-                            <div id="clock"></div>
+                        <div class="countdown">
+                            <div class="time-unit" id="days"></div>
+                            <div class="time-unit" id="hours"></div>
+                            <div class="time-unit" id="minutes"></div>
+                            <div class="time-unit" id="seconds"></div>
                         </div>
+                        <!-- div class="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <div id="clock"></div>
+                        </div -->
                     </div>
                 </div>
             </div>
@@ -1291,7 +1311,40 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             });
         });
     </script>
+    <script>
+        // Set the date we're counting down to
+        const countDownDate = new Date("August 6, 2025 18:00:00").getTime();
     
+        // Update the count down every 1 second
+        const countdownFunction = setInterval(function() {
+            // Get today's date and time
+            const now = new Date().getTime();
+    
+            // Find the distance between now and the count down date
+            const distance = countDownDate - now;
+    
+            // Time calculations for days, hours, minutes, and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+            // Display the result in the respective elements
+            document.getElementById("days").innerHTML = days + " Days";
+            document.getElementById("hours").innerHTML = hours + " Hours";
+            document.getElementById("minutes").innerHTML = minutes + " Minutes";
+            document.getElementById("seconds").innerHTML = seconds + " Seconds";
+    
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("days").innerHTML = "The conference has started!";
+                document.getElementById("hours").style.display = "none";
+                document.getElementById("minutes").style.display = "none";
+                document.getElementById("seconds").style.display = "none";
+            }
+        }, 1000);
+    </script>  
 </body>
 
 </html>
