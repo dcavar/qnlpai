@@ -1,21 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta name="description"
+        content="Quantum AI and NLP Conference 2025 Website. The conference will be held from the 6th to the 8th of August 2025 in Bloomington, Indiana at Indiana University.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Title -->
-    <title>Quantum AI and NLP 2025 Conference: Registration</title>
-
-    <!-- Favicon -->
+    <meta name="title" content="Quantum AI and NLP Conference 2025: Registration">
+    <meta name="image" content="https://qnlp.ai/img/bg-img/meta_image.png">
+    <meta property="og:url" content="https://qnlp.ai/" />
+    <meta property="og:title" content="Quantum AI and NLP Conference 2025: Registration" />
+    <meta name="author" content="Damir Cavar">
+    <meta name="date" content="10/11/2024">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://qnlp.ai/img/bg-img/meta_image.png" />
+    <!-- meta property="og:video" content="video URL" -->
+    <!-- meta property="og:audio" content="audio URL" -->
+    <meta name="twitter:image" content="https://qnlp.ai/img/bg-img/meta_image.png" />
+    <meta name="twitter:card" content="website">
+    <!-- meta name="twitter:video" content="video URL" -->
+    <!-- meta name="twitter:audio" content="audio URL" -->
+    <meta property="og:locale" content="en_US" />
+    <title>Quantum AI and NLP 2025 Conference</title>
     <link rel="icon" href="./img/core-img/favicon.png">
-
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- added by DC -->
+    <style>
+        .collapsible {
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
+        /* .active, .collapsible:hover {
+            background-color: #555;
+            color: white;
+        } */
+
+        .content {
+            padding: 0 18px;
+            /* display: none; */
+            /* overflow: hidden; */
+            /*  background-color: #f1f1f1; */
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .image-card {
+            text-align: center;
+            width: 180px;
+        }
+
+        .image-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .image-card a {
+            text-decoration: none;
+            /* color: black; */
+        }
+
+        .arrow {
+            font-size: 18px;
+            transition: transform 0.3s;
+        }
+
+        .arrow.down {
+            transform: rotate(90deg);
+        }
+
+        .countdown {
+            /* font-family: 'Arial', sans-serif; */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .time-unit {
+            font-size: 30px;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,7 +114,8 @@
                 <nav class="classy-navbar justify-content-between" id="conferNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+                    <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo_background_black.png"
+                            alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -50,17 +132,21 @@
                         <div class="classynav">
                             <ul id="nav">
                                 <li class="active"><a href="index.html">Home</a></li>
-                                <li><a href="#">Pages</a>
+                                <li class="active"><a href="callforpapers.html">Call for Papers</a></li>
+                                <li class="active"><a href="authors.html">Authors</a></li>
+                                <li class="active"><a href="submissions.html">Submission</a></li>
+                                <li class="active"><a href="committee.html">Committee</a></li>
+                                <!-- li><a href="#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">- Home</a></li>
-                                        <li><a href="about.html">- About Us</a></li>
-                                        <li><a href="speakers.html">- Speakears</a></li>
-                                        <li><a href="schedule.html">- Schedule</a></li>
-                                        <li><a href="tickets.html">- Tickets</a></li>
-                                        <li><a href="blog.html">- Blog</a></li>
-                                        <li><a href="single-blog.html">- Single Blog</a></li>
-                                        <li><a href="contact.html">- Contact</a></li>
-                                        <li><a href="#">- Dropdown</a>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="speakers.html">Keynote Speakers</a></li>
+                                        <li><a href="schedule.html">Schedule</a></li>
+                                        <li><a href="tickets.html">Registration</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="single-blog.html">Single Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#">Dropdown</a>
                                             <ul class="dropdown">
                                                 <li><a href="#">- Dropdown Item</a></li>
                                                 <li><a href="#">- Dropdown Item</a></li>
@@ -69,14 +155,16 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                </li>
-                                <li><a href="speakers.html">Speakears</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                </li -->
+                                <!-- li><a href="speakers.html">Keynotes</a></li -->
+                                <!-- li><a href="blog.html">Blog</a></li -->
+                                <!-- li><a href="contact.html">Contact</a></li -->
                             </ul>
 
                             <!-- Get Tickets Button -->
-                            <a href="#" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Register <i class="zmdi zmdi-long-arrow-right"></i></a>
+                            <!-- a href="registration.html" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Register <i class="zmdi zmdi-long-arrow-right"></i></a-->
+                            <a href="registration.html" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Register<i
+                                    class="zmdi zmdi-long-arrow-right"></i></a>
                         </div>
                         <!-- Nav End -->
                     </div>
@@ -92,11 +180,11 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2 class="page-title">Tickets</h2>
+                        <h2 class="page-title">Registration</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Tickets</li>
+                                <li class="breadcrumb-item active" aria-current="page">Registration</li>
                             </ol>
                         </nav>
                     </div>
@@ -106,21 +194,34 @@
     </section>
     <!-- Breadcrumb Area End -->
 
-    <!-- Our Ticket Pricing Table Area Start -->
     <section class="our-ticket-pricing-table-area section-padding-100-0">
         <div class="container">
             <div class="row">
-                <!-- Single Ticket Pricing Table -->
+                <p><br/></p>
+                <div class="col-12 col-lg-4">
+                    <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                        <h6 class="ticket-plan">Registration is open after mid of May 2025</h6>
+                        <div class="ticket-icon">
+                            <img src="img/core-img/p1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Ticket Pricing Table Area Start -->
+    <!-- section class="our-ticket-pricing-table-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <h6 class="ticket-plan">1 day pass</h6>
-                        <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="img/core-img/p1.png" alt="">
                         </div>
                         <h2 class="ticket-price"><span>$</span>59</h2>
                         <a href="#" class="btn confer-btn w-100 mb-30">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
-                        <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
                             <p><i class="zmdi zmdi-check"></i> Coffee-break</p>
@@ -131,17 +232,14 @@
                     </div>
                 </div>
 
-                <!-- Single Ticket Pricing Table -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-ticket-pricing-table style-2 active text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <h6 class="ticket-plan">Full pass</h6>
-                        <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="img/core-img/p2.png" alt="">
                         </div>
                         <h2 class="ticket-price"><span>$</span>99</h2>
                         <a href="#" class="btn confer-btn w-100 mb-30">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
-                        <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
                             <p><i class="zmdi zmdi-check"></i> Coffee-break</p>
@@ -152,17 +250,14 @@
                     </div>
                 </div>
 
-                <!-- Single Ticket Pricing Table -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-ticket-pricing-table style-2 text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <h6 class="ticket-plan">Group pass</h6>
-                        <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="img/core-img/p3.png" alt="">
                         </div>
                         <h2 class="ticket-price"><span>$</span>199</h2>
                         <a href="#" class="btn confer-btn w-100 mb-30">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
-                        <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
                             <p><i class="zmdi zmdi-check"></i> Coffee-break</p>
@@ -174,11 +269,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section -->
     <!-- Our Ticket Pricing Table Area End -->
 
     <!-- Call to Action Area Start -->
-    <section class="call-to-action-area bg-img bg-gradient-overlay jarallax section-padding-100" style="background-image: url(img/bg-img/14.jpg);">
+    <!-- section class="call-to-action-area bg-img bg-gradient-overlay jarallax section-padding-100" style="background-image: url(img/bg-img/14.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -199,7 +294,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section -->
     <!-- Call to Action Area End -->
 
     <section class="contact-our-area section-padding-100-0">
