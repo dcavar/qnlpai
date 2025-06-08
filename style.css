@@ -87,6 +87,18 @@ p {
   font-size: 16px;
   font-weight: 400; }
 
+table {
+  line-height: 1.8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+    width: 100%;
+    border-collapse:separate;
+    border-spacing:0 5px;
+ }
+ th, td {
+border: 1px solid ;
+}
 img {
   max-width: 100%;
   height: auto; }
