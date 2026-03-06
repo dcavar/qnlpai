@@ -1,6 +1,6 @@
-# Quantum AI and NLP 2025 Conference
+# Quantum AI and NLP 2025, 2026 Conference
 
-(C) 2025 by Damir Cavar
+(C) 2025-2026 by Damir Cavar
 
 
 
@@ -84,4 +84,5 @@ confer/
     ├── speakers.html
     ├── style.css [Core Stylesheet]
     ├── style.css.map
+
     ├── tickets.map
