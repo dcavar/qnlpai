@@ -373,7 +373,7 @@ margin-right: 15px }
 text-transform: uppercase;
 color: #fff;
 font-weight: 500;
-padding: 0 20px }
+padding: 0 12px }
 .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus { color: #df42b1 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 .classy-nav-container .classy-navbar .classynav ul li a { font-size: 14px }
