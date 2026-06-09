@@ -108,6 +108,39 @@
     }
 
     // *********************************
+    // :: 4.5 Blog Carousel Active Code
+    // *********************************
+
+    if ($.fn.owlCarousel) {
+        var blogCarousel = $('.blog-carousel');
+        blogCarousel.owlCarousel({
+            items: 3,
+            loop: false,
+            rewind: false,
+            autoplay: false,
+            smartSpeed: 800,
+            margin: 30,
+            nav: true,
+            dots: false,
+            navText: [('<i class="zmdi zmdi-chevron-left"></i>'), ('<i class="zmdi zmdi-chevron-right"></i>')],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 3
+                }
+            }
+        });
+    }
+
+    // *********************************
     // :: 5.0 Masonary Gallery Active Code
     // *********************************
 
