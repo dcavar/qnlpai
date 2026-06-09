@@ -2020,3 +2020,75 @@ align-items: center;
 flex-direction: row;
 gap: 10px }
 .time-unit { font-size: 30px }
+
+/* Blog Carousel */
+.our-blog-area .blog-carousel { position: relative; z-index: 1 }
+.our-blog-area .blog-carousel .owl-stage-outer { padding-bottom: 40px }
+.our-blog-area .blog-carousel .owl-stage { display: flex; padding-top: 10px }
+.our-blog-area .blog-carousel .owl-item { display: flex }
+.our-blog-area .blog-carousel .blog-carousel-item { width: 100%; display: flex }
+.our-blog-area .blog-carousel .single-blog-area {
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.our-blog-area .blog-carousel .single-blog-thumb {
+    height: 220px;
+    flex: 0 0 220px;
+    overflow: hidden;
+}
+.our-blog-area .blog-carousel .single-blog-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.our-blog-area .blog-carousel .single-blog-text {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.our-blog-area .blog-carousel .single-blog-text p {
+    flex: 1 1 auto;
+}
+.our-blog-area .blog-carousel .owl-nav.disabled { display: block }
+.our-blog-area .blog-carousel .owl-prev.disabled,
+.our-blog-area .blog-carousel .owl-next.disabled {
+    opacity: 0.25;
+    cursor: default;
+    pointer-events: none;
+}
+.our-blog-area .blog-carousel .owl-prev,
+.our-blog-area .blog-carousel .owl-next {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    z-index: 10;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    opacity: 0.85
+}
+.our-blog-area .blog-carousel .owl-next { left: auto; right: -40px }
+.our-blog-area .blog-carousel .owl-prev:hover,
+.our-blog-area .blog-carousel .owl-next:hover { opacity: 1; background-color: rgba(255, 255, 255, 0.4) }
+@media only screen and (max-width: 1199px) {
+    .our-blog-area .blog-carousel .owl-prev { left: -10px }
+    .our-blog-area .blog-carousel .owl-next { right: -10px }
+}
+@media only screen and (max-width: 767px) {
+    .our-blog-area .blog-carousel .owl-prev { left: 5px }
+    .our-blog-area .blog-carousel .owl-next { right: 5px }
+}
