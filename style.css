@@ -365,9 +365,17 @@ padding: 0 }
 transition-duration: 500ms;
 height: 105px;
 padding: 0 }
+.classy-nav-container .classy-navbar .nav-brand img { -webkit-transform: scale(0.5);
+transform: scale(0.5);
+-webkit-transform-origin: left center;
+transform-origin: left center }
 @media only screen and (max-width: 767px) {
-.classy-nav-container .classy-navbar .nav-brand { max-width: 90px;
+.classy-nav-container .classy-navbar .nav-brand { max-width: 160px;
 margin-right: 15px }
+.classy-nav-container .classy-navbar .nav-brand img { -webkit-transform: scale(0.8);
+transform: scale(0.8);
+-webkit-transform-origin: left center;
+transform-origin: left center }
 }
 .classy-nav-container .classy-navbar .classynav ul li a { font-size: 16px;
 text-transform: uppercase;
@@ -2091,4 +2099,22 @@ gap: 10px }
 @media only screen and (max-width: 767px) {
     .our-blog-area .blog-carousel .owl-prev { left: 5px }
     .our-blog-area .blog-carousel .owl-next { right: 5px }
+}
+
+/* ==== Full-width, single-line main navigation (desktop) ==== */
+/* Let the top menu use the entire window width so every item — including
+   Venue — stays on one line. Below 992px it collapses to the mobile toggler. */
+@media only screen and (min-width: 992px) {
+    .header-area .container {
+        max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .classy-nav-container .classy-navbar .classynav > ul {
+        white-space: nowrap;
+    }
+    .classy-nav-container .classy-navbar .classynav ul li a {
+        white-space: nowrap;
+        padding: 0 14px;
+    }
 }
