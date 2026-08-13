@@ -1,3 +1,5 @@
 node_modules/
 *~
 index.html.tmp.24500.aae28456b835
+.claude/
+grep.exe.stackdump
