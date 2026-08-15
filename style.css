@@ -1764,6 +1764,22 @@ margin-bottom: 0 }
 .single-schedule-area.single-page .single-schedule-info p span { color: #111343 }
 .single-schedule-area.single-page .schedule-time-place p { color: #111343 }
 .single-schedule-area.single-page:hover, .single-schedule-area.single-page:focus { border-color: #df42b1 }
+.single-schedule-area .single-schedule-tumb-info .single-schedule-tumb { -ms-flex: 0 0 90px;
+-webkit-box-flex: 0;
+flex: 0 0 90px;
+min-width: 90px }
+.single-schedule-area .single-schedule-tumb-info .single-schedule-info { min-width: 0;
+overflow-wrap: break-word;
+word-wrap: break-word }
+.single-schedule-area .single-schedule-tumb-info .single-schedule-info h6, .single-schedule-area .single-schedule-tumb-info .single-schedule-info p, .single-schedule-area .schedule-time-place p { overflow-wrap: break-word;
+word-wrap: break-word }
+@media only screen and (min-width: 1200px) {
+.single-schedule-area .single-schedule-tumb-info .single-schedule-info { min-width: 500px }
+}
+@media only screen and (max-width: 767px) {
+.single-schedule-area { padding: 20px }
+.single-schedule-area .single-schedule-tumb-info .single-schedule-info { margin-left: 15px }
+}
 .our-ticket-pricing-table-area { position: relative;
 z-index: 1 }
 .our-ticket-pricing-table-area .row { margin-right: -30px;

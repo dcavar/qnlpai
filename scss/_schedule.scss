@@ -93,6 +93,10 @@
     @include transition-duration(500ms);
     margin-bottom: 20px;
 
+    @media #{$breakpoint-xs} {
+        padding: 20px;
+    }
+
     &:hover,
     &:focus {
         border-color: $primary;
@@ -121,6 +125,8 @@
         .single-schedule-tumb {
             height: 90px;
             width: 90px;
+            @include flex(0 0 90px);
+            min-width: 90px;
 
             img {
                 border-radius: 50%;
@@ -129,11 +135,26 @@
 
         .single-schedule-info {
             margin-left: 30px;
+            // Allow the title to shrink and wrap inside the flex row on small screens.
+            min-width: 0;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+
+            // Wider title column only where there is room for it.
+            @media #{$breakpoint-xl} {
+                min-width: 500px;
+            }
+
+            @media #{$breakpoint-xs} {
+                margin-left: 15px;
+            }
 
             h6 {
                 font-size: 20px;
                 color: $white;
                 font-weight: 600;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
 
                 @media #{$breakpoint-lg} {
                     font-size: 16px;
@@ -194,6 +215,8 @@
             color: $white;
             margin-bottom: 0;
             letter-spacing: 1px;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
 
             @media #{$breakpoint-lg} {
                 font-size: 12px;
